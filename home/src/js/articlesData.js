@@ -6,14 +6,15 @@ const articles = [
     authorAvatar: "../images/Forum/模糊獵人.svg",
     title: "親身經歷！那晚在荒廢的工廠聽見奇怪的低語聲",
     preview: "第一次發文，想跟大家分享我上週在嘉義一間廢棄工廠探險的恐怖經歷...",
+    isFavorite: false, // 是否收藏
     articleImage: "../public/images/Forum/模糊獵人文章圖.svg",
     interactions: [
       { icon: "../public/images/Forum/Forum_ghost.svg", 
         filledIcon: "../public/images/Forum/solar_ghost-outline.svg",
         count: 1502, 
-        altText: "ghost" },
-      { icon: "../public/images/Forum/mynaui_message.svg", count: 465, altText: "message" },
-      { icon: "../public/images/Forum/Forum_label.svg", count: 600, altText: "label" }
+        altText: "ghost" },// 按讚數
+      { icon: "../public/images/Forum/mynaui_message.svg", count: 465, altText: "message" },// 留言數
+      { icon: "../public/images/Forum/Forum_label.svg", count: 600, altText: "label" }, // 收藏數
     ]
   },
   {
